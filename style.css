@@ -1,0 +1,70 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: white;
+}
+.navbar {
+  background-color: #212a3e;
+}
+#about {
+  padding-bottom: 60px;
+  background-color: white;
+}
+#profiles {
+  background-color: white;
+}
+#contact {
+  padding-bottom: 20px;
+  background-color: white;
+}
+footer {
+  padding-top: 20px;
+  background-color: #212a3e;
+  color: white;
+}
+section {
+  padding-top: 5rem;
+}
+.display-4 {
+  color: black;
+}
+.lead {
+  color: white;
+}
+.navbar-brand {
+  position: relative;
+  border-bottom: 1px solid white;
+}
+
+.blckpnk {
+  color: black;
+}
+.txt {
+  color: black;
+}
+.h2 {
+  color: white;
+}
+#clock {
+  color: pink;
+}
+.card-text {
+  color: black;
+  text-decoration: none;
+}
+.card-text:hover {
+  color: pink;
+}
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+  }
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid pink;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
